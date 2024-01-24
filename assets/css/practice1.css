@@ -1,0 +1,46 @@
+header{
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 5px 5px 6px yellow;
+}
+ul{
+    
+    list-style: none;
+}
+ul li{
+    display: inline;
+    padding: 20px;
+    
+}
+ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.maindiv{
+    flex-wrap: wrap;
+    border: 5px solid;
+    display: flex;
+    flex: 100%;
+}
+.child1{
+    flex: 33%;
+    width: 1000px;
+    height: 500px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    padding-top: 0%;
+font-size:medium;
+}
+.child2{
+    flex: 33%;
+    text-align: center;
+    
+}
+.child3{
+    flex: 33%;
+    text-align: center;
+    padding-left: 0px;
+    
+}
